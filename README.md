@@ -31,3 +31,7 @@ module {
 	channels = "#asdf #qwerty #zxcvbnm #123"; // list of channels, separated by spaces
 }
 ```
+
+## ns_login
+### (not used on PIRC)
+A hybrid of "RECOVER" and "IDENTIFY" commands of NickServ. This will identify you to a nickname, and change the nick if it does not match the requested one.
